@@ -15,3 +15,4 @@ jobs:
           python wine_linear_regression_test.py
           cat metrics.txt >> report.md
           cml comment create report.md
+          cml publish loss_plot.png --md >> report.md
